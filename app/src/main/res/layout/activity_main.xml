@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/e_bg" />
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bg"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:text="শিক্ষা নগরী"
+        android:textColor="#00BCD4"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+<!--    1st container-->
+    <LinearLayout
+        android:id="@+id/firstContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_title"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_margin="10dp"
+        android:weightSum="3"
+        >
+<!--        1st box-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/orange_button"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/education_five"
+               android:layout_gravity="center"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="One"
+                android:textStyle="bold"
+                android:textColor="#4CAF50"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+<!--        2nd box-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/orange_button"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/education_six"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Two"
+                android:textStyle="bold"
+                android:textColor="#4CAF50"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+<!--        3rd box-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/orange_button"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/education_seven"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Three"
+                android:textStyle="bold"
+                android:textColor="#4CAF50"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+<!--    2nd container-->
+    <LinearLayout
+        android:id="@+id/secoundContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/firstContainer"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="#FFFFFF"
+        android:weightSum="3"
+        >
+        <!--        1st box-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/orange_button"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/education_eight"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Four"
+                android:textStyle="bold"
+                android:textColor="#4CAF50"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+        <!--        2nd box-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/orange_button"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/education_nine"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Five"
+                android:textStyle="bold"
+                android:textColor="#4CAF50"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+        <!--        3rd box-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/orange_button"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/education_ten"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Six"
+                android:textStyle="bold"
+                android:textColor="#4CAF50"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+<!--    3rd container-->
+    <LinearLayout
+        android:id="@+id/thridContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secoundContainer"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
+        android:background="#FFFFFF"
+        android:weightSum="3"
+        >
+        <!--        1st box-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/orange_button"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/education_eleven"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seven"
+                android:textStyle="bold"
+                android:textColor="#4CAF50"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+        <!--        2nd box-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/orange_button"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/education_one"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eight"
+                android:textStyle="bold"
+                android:textColor="#4CAF50"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+        <!--        3rd box-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/orange_button"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/education_two"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nine"
+                android:textStyle="bold"
+                android:textColor="#4CAF50"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+<!--    4th container-->
+
+    <LinearLayout
+        android:id="@+id/fourContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thridContainer"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:layout_margin="10dp"
+        android:weightSum="3"
+        >
+        <!--        1st box-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/orange_button"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/education_three"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ten"
+                android:textStyle="bold"
+                android:textColor="#4CAF50"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+        <!--        2nd box-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/orange_button"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/education_four"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eleven"
+                android:textStyle="bold"
+                android:textColor="#4CAF50"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+        <!--        3rd box-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/orange_button"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/education_twilve"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Twilve"
+                android:textStyle="bold"
+                android:textColor="#4CAF50"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>
